@@ -1,0 +1,14 @@
+{
+  "name": "apple-inventory",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "苹果冷库入库数据周度跟踪：自动搜索、抽取口径数据、生成看板",
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

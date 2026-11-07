@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-11-07T11:22:04.454Z",
+  "points": [
+    {
+      "date": "2026-11-05",
+      "provider": "mysteel",
+      "total": 894.07,
+      "yoyDelta": 195.65,
+      "yoyPct": 28.01,
+      "lastYear": 698.42,
+      "evidence": "其中，据Mysteel统计，截至2026年11月5日，全国主产区苹果冷库库存量为894.07万吨，较去年同期增加195.65万吨，增幅28.01%。",
+      "sourceTitle": "商品日报（11月6日）：苹果涨超5% LPG下跌近4%",
+      "sourceUrl": "http://finance.eastmoney.com/a/202611063925110647.html",
+      "sourceMedia": "新华财经",
+      "collectedAt": "2026-11-07T11:18:02.175Z"
+    },
+    {
+      "date": "2026-11-05",
+      "provider": "sci99",
+      "total": 1001.28,
+      "yoyDelta": 318.54,
+      "lastYear": 682.74,
+      "yoyPct": 46.66,
+      "manual": true,
+      "evidence": "手工补录：该篇同时披露钢联 894.07 与卓创 1001.28 两个口径",
+      "sourceTitle": "苹果周报：冷库入库量大增 苹果期货触底反弹",
+      "sourceUrl": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/11/rptid/847335987679/index.phtml",
+      "sourceMedia": "银河期货 · 新浪财经研报",
+      "collectedAt": "2026-11-07T11:22:04.454Z"
+    }
+  ]
+}

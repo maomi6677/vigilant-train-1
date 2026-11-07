@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>苹果入库数据</title>
+    <meta name="description" content="苹果全国主产区冷库库存周度跟踪：钢联、卓创口径对比与同比走势。" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-row">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">AP</span>
+          <div class="brand-text">
+            <h1 id="page-title">苹果入库数据</h1>
+            <p id="page-subtitle" class="brand-sub">全国主产区冷库库存 · 周度跟踪</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <span id="updated" class="updated">加载中…</span>
+          <button id="refresh" class="btn-refresh" type="button" aria-label="刷新数据" title="刷新">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12a9 9 0 1 1-2.64-6.36M21 3v6h-6" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <div id="banner" class="banner" role="status" hidden></div>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-top">
+          <span id="season" class="chip">—</span>
+          <span id="latest-date" class="hero-date">数据加载中</span>
+        </div>
+        <h2 id="hero-title" class="hero-title">全国冷库库存</h2>
+        <div id="metrics" class="metrics"></div>
+        <p id="diff-note" class="diff-note"></p>
+        <p class="hero-note">入库仍在进行，本期为阶段性数据，不代表最终入库峰值。</p>
+      </section>
+
+      <section class="panel" id="compare-panel">
+        <div class="panel-head">
+          <h2>同比对比</h2>
+          <span class="panel-hint">本期 vs 去年同期</span>
+        </div>
+        <div id="compare" class="compare"></div>
+      </section>
+
+      <section class="panel" id="chart-panel">
+        <div class="panel-head">
+          <h2>入库趋势</h2>
+          <div id="legend" class="legend"></div>
+        </div>
+        <div id="chart" class="chart"></div>
+      </section>
+
+      <section class="panel" id="table-panel">
+        <div class="panel-head">
+          <h2>历史数据</h2>
+          <span class="panel-hint">单位：万吨</span>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th scope="col">数据日期</th>
+                <th scope="col">钢联</th>
+                <th scope="col">同比</th>
+                <th scope="col">卓创</th>
+                <th scope="col">同比</th>
+                <th scope="col">差值</th>
+              </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel" id="sources-panel">
+        <div class="panel-head">
+          <h2>数据来源</h2>
+          <span class="panel-hint">以原始报告为准</span>
+        </div>
+        <ul id="sources" class="sources"></ul>
+      </section>
+
+      <p class="disclaimer">
+        数据由公开资讯自动提取，可能存在口径差异或识别误差，请以 Mysteel / 卓创原始报告为准。本页不构成投资建议。
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-row">
+        <p>由 GitHub Actions 定时更新 · 无需服务器</p>
+        <p>
+          <a href="./data/points.json" target="_blank" rel="noopener">原始数据</a>
+          <span aria-hidden="true">·</span>
+          <a href="./data/meta.json" target="_blank" rel="noopener">采集状态</a>
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

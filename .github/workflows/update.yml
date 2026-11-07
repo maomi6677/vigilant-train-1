@@ -1,0 +1,53 @@
+name: 更新苹果入库数据
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # 北京 08:30
+    - cron: "50 0 * * *"   # 北京 08:50
+    - cron: "50 4 * * *"   # 北京 12:50
+    - cron: "25 5 * * *"   # 北京 13:25
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "config/**"
+      - "scripts/**"
+      - "package.json"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apple-inventory-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v5
+
+      - name: 准备 Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+
+      - name: 抓取并抽取
+        env:
+          TZ: Asia/Shanghai
+        run: node scripts/collect.mjs
+
+      - name: 提交数据
+        run: |
+          if git diff --quiet -- docs/data/points.json; then
+            echo "没有新增数据点，跳过提交。"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          git commit -m "data: 更新苹果入库数据 $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin HEAD:main

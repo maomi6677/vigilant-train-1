@@ -1,13 +1,21 @@
 {
-  "updatedAt": "2026-11-09T00:45:02.667Z",
+  "updatedAt": "2026-11-09T01:40:45.533Z",
   "articles": [
+    {
+      "title": "农产品 | 部分工厂合同报价上调 对市场信心形成支撑 预计短期花生价格或震荡趋稳",
+      "url": "http://finance.eastmoney.com/a/202611093925770982.html",
+      "media": "瑞达期货",
+      "publishedAt": "2026-11-09T00:52:57.000Z",
+      "points": 1,
+      "collectedAt": "2026-11-09T01:40:45.533Z"
+    },
     {
       "title": "商品日报（11月6日）：苹果涨超5% LPG下跌近4%",
       "url": "http://finance.eastmoney.com/a/202611063925110647.html",
       "media": "新华财经",
       "publishedAt": "2026-11-06T10:40:54.000Z",
       "points": 1,
-      "collectedAt": "2026-11-09T00:45:02.667Z"
+      "collectedAt": "2026-11-09T01:40:45.533Z"
     },
     {
       "title": "逆势拉升 大涨近5%！苹果期价拐点来了？",
@@ -15,7 +23,7 @@
       "media": "期货日报",
       "publishedAt": "2026-11-06T05:04:07.000Z",
       "points": 1,
-      "collectedAt": "2026-11-09T00:45:02.667Z"
+      "collectedAt": "2026-11-09T01:40:45.533Z"
     },
     {
       "title": "苹果逆势大涨 上行空间或有限",
@@ -23,7 +31,7 @@
       "media": "期货日报",
       "publishedAt": "2026-11-06T04:50:07.000Z",
       "points": 1,
-      "collectedAt": "2026-11-09T00:45:02.667Z"
+      "collectedAt": "2026-11-09T01:40:45.533Z"
     },
     {
       "title": "当前苹果入库量远高于去年同期水平 中长期去库压力加大",
@@ -31,7 +39,7 @@
       "media": "瑞达期货",
       "publishedAt": "2026-11-06T00:51:00.000Z",
       "points": 1,
-      "collectedAt": "2026-11-09T00:45:02.667Z"
+      "collectedAt": "2026-11-09T01:40:45.533Z"
     }
   ]
 }

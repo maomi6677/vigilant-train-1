@@ -1,15 +1,15 @@
 {
   "title": "苹果入库数据",
   "subtitle": "全国主产区冷库库存 · 周度跟踪",
-  "updatedAt": "2026-11-10T06:17:06.139Z",
+  "updatedAt": "2026-11-11T01:31:58.774Z",
   "latestDate": "2026-11-05",
   "seasonStart": "2026-09-01",
   "seasonLabel": "2026/27",
   "totalPoints": 2,
   "newPoints": 1,
   "manualPoints": 1,
-  "scanned": 13,
-  "fetched": 13,
+  "scanned": 14,
+  "fetched": 14,
   "failed": 0,
   "queries": [
     "苹果 冷库库存",

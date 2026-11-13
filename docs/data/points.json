@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T01:53:05.763Z",
+  "updatedAt": "2026-11-13T05:44:03.828Z",
   "points": [
     {
       "date": "2026-11-11",
@@ -10,6 +10,17 @@
       "sourceUrl": "http://forex.eastmoney.com/a/202611123929815874.html",
       "sourceMedia": "新华财经",
       "collectedAt": "2026-11-13T01:38:02.380Z"
+    },
+    {
+      "date": "2026-11-11",
+      "provider": "unknown",
+      "total": 1356.29,
+      "inferred": true,
+      "evidence": "品种资讯 黑色系 期货 螺纹钢： 本周，钢材总库存量1356.29万吨， 环比降23.53万吨。",
+      "sourceTitle": "东方财富期货早餐 11月13日 周五",
+      "sourceUrl": "http://finance.eastmoney.com/a/202611123929898851.html",
+      "sourceMedia": "东方财富研究中心",
+      "collectedAt": "2026-11-13T05:44:03.828Z"
     },
     {
       "date": "2026-11-05",
@@ -36,7 +47,7 @@
       "sourceTitle": "苹果周报：冷库入库量大增 苹果期货触底反弹",
       "sourceUrl": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/11/rptid/847335987679/index.phtml",
       "sourceMedia": "银河期货 · 新浪财经研报",
-      "collectedAt": "2026-11-13T01:53:05.763Z"
+      "collectedAt": "2026-11-13T05:44:03.828Z"
     }
   ]
 }

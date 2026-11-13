@@ -1,13 +1,29 @@
 {
-  "updatedAt": "2026-11-12T06:24:52.761Z",
+  "updatedAt": "2026-11-13T01:38:02.380Z",
   "articles": [
+    {
+      "title": "东方财富期货早餐 11月13日 周五",
+      "url": "http://finance.eastmoney.com/a/202611123929898851.html",
+      "media": "东方财富研究中心",
+      "publishedAt": "2026-11-12T23:40:23.000Z",
+      "points": 2,
+      "collectedAt": "2026-11-13T01:38:02.380Z"
+    },
+    {
+      "title": "商品日报（11月12日）：苹果增仓大涨超4% 贵金属继续承压",
+      "url": "http://forex.eastmoney.com/a/202611123929815874.html",
+      "media": "新华财经",
+      "publishedAt": "2026-11-12T09:25:43.000Z",
+      "points": 1,
+      "collectedAt": "2026-11-13T01:38:02.380Z"
+    },
     {
       "title": "午盘播报 11月12日 周四",
       "url": "http://finance.eastmoney.com/a/202611123929335595.html",
       "media": "东方财富研究中心",
       "publishedAt": "2026-11-12T03:30:12.000Z",
       "points": 1,
-      "collectedAt": "2026-11-12T06:24:52.761Z"
+      "collectedAt": "2026-11-13T01:38:02.380Z"
     },
     {
       "title": "农产品 | 部分工厂合同报价上调 对市场信心形成支撑 预计短期花生价格或震荡趋稳",
@@ -15,7 +31,7 @@
       "media": "瑞达期货",
       "publishedAt": "2026-11-09T00:52:57.000Z",
       "points": 1,
-      "collectedAt": "2026-11-12T06:24:52.761Z"
+      "collectedAt": "2026-11-13T01:38:02.380Z"
     },
     {
       "title": "商品日报（11月6日）：苹果涨超5% LPG下跌近4%",
@@ -23,7 +39,7 @@
       "media": "新华财经",
       "publishedAt": "2026-11-06T10:40:54.000Z",
       "points": 1,
-      "collectedAt": "2026-11-12T06:24:52.761Z"
+      "collectedAt": "2026-11-13T01:38:02.380Z"
     },
     {
       "title": "逆势拉升 大涨近5%！苹果期价拐点来了？",
@@ -31,7 +47,7 @@
       "media": "期货日报",
       "publishedAt": "2026-11-06T05:04:07.000Z",
       "points": 1,
-      "collectedAt": "2026-11-12T06:24:52.761Z"
+      "collectedAt": "2026-11-13T01:38:02.380Z"
     },
     {
       "title": "苹果逆势大涨 上行空间或有限",
@@ -39,7 +55,7 @@
       "media": "期货日报",
       "publishedAt": "2026-11-06T04:50:07.000Z",
       "points": 1,
-      "collectedAt": "2026-11-12T06:24:52.761Z"
+      "collectedAt": "2026-11-13T01:38:02.380Z"
     },
     {
       "title": "当前苹果入库量远高于去年同期水平 中长期去库压力加大",
@@ -47,7 +63,7 @@
       "media": "瑞达期货",
       "publishedAt": "2026-11-06T00:51:00.000Z",
       "points": 1,
-      "collectedAt": "2026-11-12T06:24:52.761Z"
+      "collectedAt": "2026-11-13T01:38:02.380Z"
     }
   ]
 }

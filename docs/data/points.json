@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-19T06:24:03.261Z",
+  "updatedAt": "2026-11-20T01:40:09.687Z",
   "points": [
     {
       "date": "2026-11-18",
-      "provider": "unknown",
+      "provider": "mysteel",
       "total": 989.63,
-      "evidence": "（SMM） 苹果 ： 截至2026年11月18日，全国主产区 苹果 冷库库存量为989.63万吨，较上周增加22.83万吨。",
-      "sourceTitle": "午盘播报 11月19日 周四",
-      "sourceUrl": "http://finance.eastmoney.com/a/202611193934916930.html",
-      "sourceMedia": "东方财富研究中心",
-      "collectedAt": "2026-11-19T05:46:10.476Z"
+      "evidence": "Mysteel数据显示，截至2026年11月18日，全国主产区苹果冷库库存量为989.63万吨，较前一周增加22.83万吨，较去年同期增加28.00%。",
+      "sourceTitle": "商品日报（11月19日）：金属继续承压下挫 苹果跌超7%",
+      "sourceUrl": "http://finance.eastmoney.com/a/202611193935268737.html",
+      "sourceMedia": "新华财经",
+      "collectedAt": "2026-11-20T01:40:09.687Z"
     },
     {
       "date": "2026-11-11",
@@ -57,7 +57,7 @@
       "sourceTitle": "苹果周报：冷库入库量大增 苹果期货触底反弹",
       "sourceUrl": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/11/rptid/847335987679/index.phtml",
       "sourceMedia": "银河期货 · 新浪财经研报",
-      "collectedAt": "2026-11-19T06:24:03.261Z"
+      "collectedAt": "2026-11-20T01:40:09.687Z"
     }
   ]
 }
